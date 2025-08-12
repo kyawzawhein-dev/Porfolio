@@ -16,3 +16,51 @@ body {
   margin: 0 10px;
   filter: invert(100%);
 }
+
+.experience-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.experience-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.experience-section p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  line-height: 1.5;
+}
+
+/* Carousel styling */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-btn {
+  background: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 8px 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.carousel-img-wrapper {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px; /* Rounded edges */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
