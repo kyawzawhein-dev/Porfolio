@@ -1,20 +1,20 @@
 import React from "react";
-import pms from "../assets/project.jpg"; // Replace with your images
-import banking from "../assets/bank.png";
-import portfolio from "../assets/profile.jpg";
-import todo from "../assets/todo.png";
+import java from "../assets/java.jpg"; // Replace with your images
+import Csharp from "../assets/C sharp.jpg";
+import english from "../assets/english.png";
+import react from "../assets/react.jpg";
 
 export default function Projects() {
   const projects = [
-    { img: pms, name: "PMS" },
-    { img: banking, name: "Banking Projects" },
-    { img: portfolio, name: "Portfolio" },
-    { img: todo, name: "Todo" },
+    { img: java, name: "Java" },
+    { img: Csharp, name: "C#" },
+    { img: english, name: "English" },
+    { img: react, name: "React" },
   ];
 
   return (
     <section className="projects-section">
-      <h2>Projects</h2>
+      <h2>Languages</h2>
       <div className="projects-grid">
         {projects.map((proj, index) => (
           <div key={index} className="project-card">
