@@ -7,13 +7,13 @@ import emailIcon from "../assets/gmail.png";
 export default function Footer() {
   return (
     <footer className="footer">
-      <a href="https://github.com/kyawzaw-dev">
+      <a href="https://github.com/kyawzawhein-dev">
         <img src={githubIcon} alt="GitHub" />
       </a>
-      <a href="https://facebook.com/KyawZaw">
+      <a href="https://www.facebook.com/kyaw.zaw.873116">
         <img src={facebookIcon} alt="Facebook" />
       </a>
-      <a href="https://linkedin.com/in/KyawZaw">
+      <a href="https://www.linkedin.com/in/kyaw-zaw-103951374/">
         <img src={linkedinIcon} alt="LinkedIn" />
       </a>
       <a href="mailto:zawk9340@gmail.com">
