@@ -13,7 +13,7 @@ export default function Footer() {
       <a href="https://www.facebook.com/kyaw.zaw.873116">
         <img src={facebookIcon} alt="Facebook" />
       </a>
-      <a href="https://www.linkedin.com/in/kyaw-zaw-103951374/">
+      <a href="https://www.linkedin.com/in/kyaw-zaw-hein-103951374/">
         <img src={linkedinIcon} alt="LinkedIn" />
       </a>
       <a href="mailto:zawk9340@gmail.com">
